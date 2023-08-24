@@ -1,0 +1,17 @@
+/* ----- Nav ------ */
+
+#nav {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DEECEC;
+}
+
+#icon-container, #nav-links {
+    display: none;
+}
+
+#menu{
+    margin-left:auto;
+}
