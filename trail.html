@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shadow Hover Effect Cards</title>
+<style>
+  #services {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  .service {
+    width: 200px;
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+
+  .service:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+
+  .service h3 {
+    color: #34394c;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  .service p {
+    color: #7f8698;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+<div>
+  <div id="services">
+    <div class="service">
+      <img src="./public/icons/free-shping.svg" alt="services-img" />
+      <h3>Free Shipping</h3>
+      <p>Get your items shipped for free on all orders.</p>
+    </div>
+    <div class="service">
+      <img src="./public/icons/secure-payment.svg" alt="services-img" />
+      <h3>Secure Payments</h3>
+      <p>Shop with confidence using secure payment methods.</p>
+    </div>
+    <div class="service">
+      <img src="./public/icons/easy-retun.svg" alt="services-img" />
+      <h3>Easy Returns</h3>
+      <p>Simple and hassle-free returns within 30 days.</p>
+    </div>
+    <div class="service">
+      <img src="./public/icons/24-7-support.svg" alt="services-img" />
+      <h3>24/7 Support</h3>
+      <p>Round-the-clock customer support to assist you.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
