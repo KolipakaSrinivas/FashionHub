@@ -15,7 +15,9 @@ p,
 figure,
 blockquote,
 dl,
-dd {
+dd ,
+nav,
+header{
   margin: 0;
 }
 
@@ -23,7 +25,8 @@ dd {
 
 ul,
 li,
-a {
+a,
+hr {
   padding: 0;
 } 
 
