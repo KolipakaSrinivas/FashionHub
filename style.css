@@ -151,7 +151,7 @@
   flex-direction: column;
 }
 
-#latest-arrival h1 {
+.heading {
   color: #34394c;
   font-family: Outfit;
   font-size: 50px;
@@ -269,7 +269,7 @@
   justify-content: space-between;
 }
 
-.reating-review p {
+.description {
   color: #7f8698;
   font-family: Work Sans;
   font-size: 16px;
@@ -284,7 +284,7 @@
   gap: 1rem;
 }
 
-#card-list {
+.card-list {
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
@@ -292,8 +292,8 @@
   justify-content: center;
 }
 
-/* Featured-Product */
-#Featured-Product {
+/* Featured-Product coundown */
+#Featured-Product-coundown {
   background: #f6f8fa;
 }
 
@@ -391,7 +391,7 @@
   line-height: 60px; /* 375% */
 }
 
-#timer-heading h2{
+#timer-heading h2 {
   align-items: center;
   justify-content: center;
   color: #34394c;
@@ -400,6 +400,38 @@
   font-style: normal;
   font-weight: 300;
   line-height: 60px; /* 375% */
+}
+
+/* Featured-Product */
+
+
+#Featured-Product-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Featured-Product-heading div h2 {
+  display: inline;
+  gap: 1rem;
+}
+
+.Featured-Product-active {
+  color: #34394c;
+  font-family: Outfit;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px; /* 230.769% */
+}
+
+.Featured-Product-inactive {
+  color: #afb4c4;
+  font-family: Outfit;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px;
 }
 
 /* --- 751px ---- */
